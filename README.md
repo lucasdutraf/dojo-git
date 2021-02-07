@@ -1,7 +1,7 @@
 # Dojo de Git
 Dojo de git do grupo 1 da disciplina de EPS.
 
-## Passo a serem executados
+## Passos a serem executados
 ### 1. Clone
 Clonem esse repositório para suas máquinas.  
 ```$ git clone https://github.com/lucasdutraf/dojo-git.git```
