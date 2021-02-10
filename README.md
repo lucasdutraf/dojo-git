@@ -1,3 +1,43 @@
+# Comandos úteis
+## Branches
+* Verificar a branch atual
+  ```$ git branch```
+* Listar as branches que estão acessíveis pelo projeto local
+  ```$ git branch -a```
+* Deletar branch local
+  ```$ git branch -d <nome_da_branch>```
+* Criar branch local
+  ```$ git branch -b <nome_da_branch>```
+* Demais informações sobre flags
+  ```$ git branch -h```
+  
+## Commits
+* Commitar com a mensagem em um único comando
+  ```$ git commit -m <mensagem>```
+
+* Abrir editor para escrever mensagem de commit
+  ```$ git commit```
+  
+* Editar último commit local (mensagem e conteúdo)
+  ```$ git commit --amend```
+
+## Stage/Unstage
+* Parar de rastrear algum arquivo
+  ```$ git reset <arquivo>```
+  
+* Rastrear todos os arquivos editados/criados
+  ```$ git add .```
+  
+* Rastrear algum/alguns arquivos
+  ```$ git add <arquivo>```
+  
+## Push
+* Atualizar repositório remoto
+  ```$ git push origin <nome_da_branch>```
+  
+* Forçar atualização com repositório remoto
+  ```$ git push -f origin <nome_da_branch>```
+
 # Dojo de Git
 Dojo de git do grupo 1 da disciplina de EPS.
 
