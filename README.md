@@ -37,6 +37,11 @@
   
 * Forçar atualização com repositório remoto
   ```$ git push -f origin <nome_da_branch>```
+## Pull
+* Atualizar branch local com a branch remota
+  ```$ git pull origin <nome_da_branch>```
+* Atualizar branch local com a branch remota em casos de conflito
+  ```$ git pull --rebase origin <nome_da_branch>```
 
 # Dojo de Git
 Dojo de git do grupo 1 da disciplina de EPS.
